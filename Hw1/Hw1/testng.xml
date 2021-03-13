@@ -1,0 +1,7 @@
+<suite name="Sum test suite">
+    <test name="AutoQA">
+        <classes>
+            <class name="Hw1.SumTest" />
+        </classes>
+    </test>
+</suite>

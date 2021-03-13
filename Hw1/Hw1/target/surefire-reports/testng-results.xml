@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-13T22:57:54Z" name="Sum test suite" finished-at="2021-03-13T22:57:54Z" duration-ms="39">
+    <groups>
+    </groups>
+    <test started-at="2021-03-13T22:57:54Z" name="AutoQA" finished-at="2021-03-13T22:57:54Z" duration-ms="39">
+      <class name="Hw1.SubTest">
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.SubTest@32eebfca]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.SumTest@28ac3dc3]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method signature="DoubleSumTest()[pri:0, instance:Hw1.SubTest@32eebfca]" started-at="2021-03-14T01:57:54Z" name="DoubleSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleSumTest -->
+        <test-method signature="LongSumTest()[pri:0, instance:Hw1.SubTest@32eebfca]" started-at="2021-03-14T01:57:54Z" name="LongSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongSumTest -->
+      </class> <!-- Hw1.SubTest -->
+      <class name="Hw1.SumTest">
+        <test-method signature="DoubleSumTest()[pri:0, instance:Hw1.SumTest@28ac3dc3]" started-at="2021-03-14T01:57:54Z" name="DoubleSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleSumTest -->
+        <test-method signature="LongSumTest()[pri:0, instance:Hw1.SumTest@28ac3dc3]" started-at="2021-03-14T01:57:54Z" name="LongSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongSumTest -->
+      </class> <!-- Hw1.SumTest -->
+    </test> <!-- AutoQA -->
+  </suite> <!-- Sum test suite -->
+  <suite started-at="2021-03-13T22:57:54Z" name="Sum test suite (1)" finished-at="2021-03-13T22:57:54Z" duration-ms="5">
+    <groups>
+    </groups>
+    <test started-at="2021-03-13T22:57:54Z" name="AutoQA" finished-at="2021-03-13T22:57:54Z" duration-ms="5">
+      <class name="Hw1.DivTest">
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.DivTest@10d59286]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.MultTest@5fdba6f9]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method signature="DoubleSumTest()[pri:0, instance:Hw1.DivTest@10d59286]" started-at="2021-03-14T01:57:54Z" name="DoubleSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleSumTest -->
+        <test-method signature="LongSumTest()[pri:0, instance:Hw1.DivTest@10d59286]" started-at="2021-03-14T01:57:54Z" name="LongSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongSumTest -->
+      </class> <!-- Hw1.DivTest -->
+      <class name="Hw1.MultTest">
+        <test-method signature="DoubleMultTest()[pri:0, instance:Hw1.MultTest@5fdba6f9]" started-at="2021-03-14T01:57:54Z" name="DoubleMultTest" finished-at="2021-03-14T01:57:54Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleMultTest -->
+        <test-method signature="LongMultTest()[pri:0, instance:Hw1.MultTest@5fdba6f9]" started-at="2021-03-14T01:57:54Z" name="LongMultTest" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongMultTest -->
+      </class> <!-- Hw1.MultTest -->
+    </test> <!-- AutoQA -->
+  </suite> <!-- Sum test suite (1) -->
+  <suite started-at="2021-03-13T22:57:54Z" name="Sum test suite (0)" finished-at="2021-03-13T22:57:54Z" duration-ms="15">
+    <groups>
+    </groups>
+    <test started-at="2021-03-13T22:57:54Z" name="AutoQA" finished-at="2021-03-13T22:57:54Z" duration-ms="15">
+      <class name="Hw1.SinTest">
+        <test-method signature="SinTest()[pri:0, instance:Hw1.SinTest@5579bb86]" started-at="2021-03-14T01:57:54Z" name="SinTest" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinTest -->
+      </class> <!-- Hw1.SinTest -->
+      <class name="Hw1.DivTest">
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.SqrtTest@31f924f5]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.SinTest@5579bb86]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.DivTest@5204062d]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.SumTest@27d415d9]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.MultTest@5c18298f]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method is-config="true" signature="CreateTestCalculator()[pri:0, instance:Hw1.SubTest@4fcd19b3]" started-at="2021-03-14T01:57:54Z" name="CreateTestCalculator" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTestCalculator -->
+        <test-method signature="DoubleSumTest()[pri:0, instance:Hw1.DivTest@5204062d]" started-at="2021-03-14T01:57:54Z" name="DoubleSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleSumTest -->
+        <test-method signature="LongSumTest()[pri:0, instance:Hw1.DivTest@5204062d]" started-at="2021-03-14T01:57:54Z" name="LongSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongSumTest -->
+      </class> <!-- Hw1.DivTest -->
+      <class name="Hw1.MultTest">
+        <test-method signature="DoubleMultTest()[pri:0, instance:Hw1.MultTest@5c18298f]" started-at="2021-03-14T01:57:54Z" name="DoubleMultTest" finished-at="2021-03-14T01:57:54Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleMultTest -->
+        <test-method signature="LongMultTest()[pri:0, instance:Hw1.MultTest@5c18298f]" started-at="2021-03-14T01:57:54Z" name="LongMultTest" finished-at="2021-03-14T01:57:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongMultTest -->
+      </class> <!-- Hw1.MultTest -->
+      <class name="Hw1.SubTest">
+        <test-method signature="DoubleSumTest()[pri:0, instance:Hw1.SubTest@4fcd19b3]" started-at="2021-03-14T01:57:54Z" name="DoubleSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleSumTest -->
+        <test-method signature="LongSumTest()[pri:0, instance:Hw1.SubTest@4fcd19b3]" started-at="2021-03-14T01:57:54Z" name="LongSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongSumTest -->
+      </class> <!-- Hw1.SubTest -->
+      <class name="Hw1.SumTest">
+        <test-method signature="DoubleSumTest()[pri:0, instance:Hw1.SumTest@27d415d9]" started-at="2021-03-14T01:57:54Z" name="DoubleSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleSumTest -->
+        <test-method signature="LongSumTest()[pri:0, instance:Hw1.SumTest@27d415d9]" started-at="2021-03-14T01:57:54Z" name="LongSumTest" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongSumTest -->
+      </class> <!-- Hw1.SumTest -->
+      <class name="Hw1.SqrtTest">
+        <test-method signature="SqrtTest()[pri:0, instance:Hw1.SqrtTest@31f924f5]" started-at="2021-03-14T01:57:54Z" name="SqrtTest" finished-at="2021-03-14T01:57:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SqrtTest -->
+      </class> <!-- Hw1.SqrtTest -->
+    </test> <!-- AutoQA -->
+  </suite> <!-- Sum test suite (0) -->
+</testng-results>
