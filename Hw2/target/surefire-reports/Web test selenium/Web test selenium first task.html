@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Web test selenium first task</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Web test selenium first task</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 10 16:12:58 MSK 2021</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11891 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckCheckboxesLogging()'><b>CheckCheckboxesLogging</b><br>Test class: Hw2.SecondHalf<br/>
+<a href="#Output-332498651" onClick='toggleBox("Output-332498651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-332498651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-332498651">
+16:13:10 Wind: condition changed to true<br/>
+16:13:10 Water: condition changed to true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckCheckboxesLoggingReverse()'><b>CheckCheckboxesLoggingReverse</b><br>Test class: Hw2.SecondHalf<br/>
+<a href="#Output-843149630" onClick='toggleBox("Output-843149630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-843149630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-843149630">
+16:13:10 Wind: condition changed to false<br/>
+16:13:10 Water: condition changed to false<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckDiffElements()'><b>CheckDiffElements</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckDiffElementsContent()'><b>CheckDiffElementsContent</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckDropdownLogging()'><b>CheckDropdownLogging</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.CheckHeader()'><b>CheckHeader</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.CheckIframe()'><b>CheckIframe</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.CheckImages()'><b>CheckImages</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.CheckImagesTexts()'><b>CheckImagesTexts</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.CheckPostlogin()'><b>CheckPostlogin</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckRadiobuttonLogging()'><b>CheckRadiobuttonLogging</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckServicesHeader()'><b>CheckServicesHeader</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.CheckServicesLeft()'><b>CheckServicesLeft</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.CheckUsername()'><b>CheckUsername</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.EnterPage()'><b>EnterPage</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>1</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.EnterPage()'><b>EnterPage</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>3</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.Footer()'><b>Footer</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.LeftSection()'><b>LeftSection</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.MainHeaderText()'><b>MainHeaderText</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.PerformLogin()'><b>PerformLogin</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.SecondHalf.PerformLogin()'><b>PerformLogin</b><br>Test class: Hw2.SecondHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.SecondHalf@5c18298f</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.SubheaderLink()'><b>SubheaderLink</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.SubheaderText()'><b>SubheaderText</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+<tr>
+<td title='Hw2.FirstHalf.TestIframeContent()'><b>TestIframeContent</b><br>Test class: Hw2.FirstHalf</td>
+<td></td>
+<td>0</td>
+<td>Hw2.FirstHalf@704921a5</td></tr>
+</table><p>
+</body>
+</html>

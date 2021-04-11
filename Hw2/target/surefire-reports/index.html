@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Web_test_selenium" class="navigator-link">
+              <span class="suite-name border-passed">Web test selenium</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Web_test_selenium" class="navigator-link ">
+                    <span>G:\Univer\Тестирование\Epum\Labs\Hw2\WebSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Web_test_selenium" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Web_test_selenium" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Web_test_selenium" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Web_test_selenium" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Web_test_selenium" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Web_test_selenium" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Web_test_selenium" class="hide-methods passed suite-Web_test_selenium"> (hide)</a> <!-- hide-methods passed suite-Web_test_selenium -->
+                      <a href="#" panel-name="suite-Web_test_selenium" class="show-methods passed suite-Web_test_selenium"> (show)</a> <!-- show-methods passed suite-Web_test_selenium -->
+                    </span>
+                    <div class="method-list-content passed suite-Web_test_selenium">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckCheckboxesLogging">CheckCheckboxesLogging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckCheckboxesLoggingReverse">CheckCheckboxesLoggingReverse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckDiffElements">CheckDiffElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckDiffElementsContent">CheckDiffElementsContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckDropdownLogging">CheckDropdownLogging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="CheckHeader">CheckHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="CheckIframe">CheckIframe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="CheckImages">CheckImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="CheckImagesTexts">CheckImagesTexts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="CheckPostlogin">CheckPostlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckRadiobuttonLogging">CheckRadiobuttonLogging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckServicesHeader">CheckServicesHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="CheckServicesLeft">CheckServicesLeft</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="CheckUsername">CheckUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="EnterPage">EnterPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="EnterPage">EnterPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="Footer">Footer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="LeftSection">LeftSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="MainHeaderText">MainHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="PerformLogin">PerformLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.SecondHalf" class="method navigator-link" hash-for-method="PerformLogin">PerformLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="SubheaderLink">SubheaderLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="SubheaderText">SubheaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_test_selenium" title="Hw2.FirstHalf" class="method navigator-link" hash-for-method="TestIframeContent">TestIframeContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Web_test_selenium -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Web_test_selenium" class="panel Web_test_selenium">
+          <div class="suite-Web_test_selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Hw2.FirstHalf</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckHeader">
+                  </a> <!-- CheckHeader -->
+                  <span class="method-name">CheckHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckIframe">
+                  </a> <!-- CheckIframe -->
+                  <span class="method-name">CheckIframe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckImages">
+                  </a> <!-- CheckImages -->
+                  <span class="method-name">CheckImages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckImagesTexts">
+                  </a> <!-- CheckImagesTexts -->
+                  <span class="method-name">CheckImagesTexts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckPostlogin">
+                  </a> <!-- CheckPostlogin -->
+                  <span class="method-name">CheckPostlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckUsername">
+                  </a> <!-- CheckUsername -->
+                  <span class="method-name">CheckUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterPage">
+                  </a> <!-- EnterPage -->
+                  <span class="method-name">EnterPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Footer">
+                  </a> <!-- Footer -->
+                  <span class="method-name">Footer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeftSection">
+                  </a> <!-- LeftSection -->
+                  <span class="method-name">LeftSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MainHeaderText">
+                  </a> <!-- MainHeaderText -->
+                  <span class="method-name">MainHeaderText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PerformLogin">
+                  </a> <!-- PerformLogin -->
+                  <span class="method-name">PerformLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubheaderLink">
+                  </a> <!-- SubheaderLink -->
+                  <span class="method-name">SubheaderLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubheaderText">
+                  </a> <!-- SubheaderText -->
+                  <span class="method-name">SubheaderText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestIframeContent">
+                  </a> <!-- TestIframeContent -->
+                  <span class="method-name">TestIframeContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_test_selenium-class-passed -->
+          <div class="suite-Web_test_selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Hw2.SecondHalf</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckCheckboxesLogging">
+                  </a> <!-- CheckCheckboxesLogging -->
+                  <span class="method-name">CheckCheckboxesLogging</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckCheckboxesLoggingReverse">
+                  </a> <!-- CheckCheckboxesLoggingReverse -->
+                  <span class="method-name">CheckCheckboxesLoggingReverse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDiffElements">
+                  </a> <!-- CheckDiffElements -->
+                  <span class="method-name">CheckDiffElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDiffElementsContent">
+                  </a> <!-- CheckDiffElementsContent -->
+                  <span class="method-name">CheckDiffElementsContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDropdownLogging">
+                  </a> <!-- CheckDropdownLogging -->
+                  <span class="method-name">CheckDropdownLogging</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckRadiobuttonLogging">
+                  </a> <!-- CheckRadiobuttonLogging -->
+                  <span class="method-name">CheckRadiobuttonLogging</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckServicesHeader">
+                  </a> <!-- CheckServicesHeader -->
+                  <span class="method-name">CheckServicesHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckServicesLeft">
+                  </a> <!-- CheckServicesLeft -->
+                  <span class="method-name">CheckServicesLeft</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterPage">
+                  </a> <!-- EnterPage -->
+                  <span class="method-name">EnterPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PerformLogin">
+                  </a> <!-- PerformLogin -->
+                  <span class="method-name">PerformLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_test_selenium-class-passed -->
+        </div> <!-- panel Web_test_selenium -->
+        <div panel-name="test-xml-Web_test_selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\Univer\Тестирование\Epum\Labs\Hw2\WebSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Web test selenium&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Web test selenium first task&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Hw2.FirstHalf&quot;/&gt;
+      &lt;class name=&quot;Hw2.SecondHalf&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Web test selenium first task --&gt;
+&lt;/suite&gt; &lt;!-- Web test selenium --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Web_test_selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Web test selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Web test selenium first task (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Web_test_selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Web test selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Web_test_selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Web test selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Web_test_selenium');
+function tableData_Web_test_selenium() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EnterPage')
+data.setCell(0, 2, 'Hw2.SecondHalf')
+data.setCell(0, 3, 3293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EnterPage')
+data.setCell(1, 2, 'Hw2.FirstHalf')
+data.setCell(1, 3, 1484);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckServicesLeft')
+data.setCell(2, 2, 'Hw2.SecondHalf')
+data.setCell(2, 3, 428);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckDiffElements')
+data.setCell(3, 2, 'Hw2.SecondHalf')
+data.setCell(3, 3, 393);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckServicesHeader')
+data.setCell(4, 2, 'Hw2.SecondHalf')
+data.setCell(4, 3, 389);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CheckHeader')
+data.setCell(5, 2, 'Hw2.FirstHalf')
+data.setCell(5, 3, 365);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PerformLogin')
+data.setCell(6, 2, 'Hw2.SecondHalf')
+data.setCell(6, 3, 287);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CheckDiffElementsContent')
+data.setCell(7, 2, 'Hw2.SecondHalf')
+data.setCell(7, 3, 280);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'PerformLogin')
+data.setCell(8, 2, 'Hw2.FirstHalf')
+data.setCell(8, 3, 278);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CheckDropdownLogging')
+data.setCell(9, 2, 'Hw2.SecondHalf')
+data.setCell(9, 3, 148);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CheckImages')
+data.setCell(10, 2, 'Hw2.FirstHalf')
+data.setCell(10, 3, 140);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'CheckImagesTexts')
+data.setCell(11, 2, 'Hw2.FirstHalf')
+data.setCell(11, 3, 106);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CheckCheckboxesLogging')
+data.setCell(12, 2, 'Hw2.SecondHalf')
+data.setCell(12, 3, 98);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'MainHeaderText')
+data.setCell(13, 2, 'Hw2.FirstHalf')
+data.setCell(13, 3, 71);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'CheckCheckboxesLoggingReverse')
+data.setCell(14, 2, 'Hw2.SecondHalf')
+data.setCell(14, 3, 69);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'CheckRadiobuttonLogging')
+data.setCell(15, 2, 'Hw2.SecondHalf')
+data.setCell(15, 3, 59);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestIframeContent')
+data.setCell(16, 2, 'Hw2.FirstHalf')
+data.setCell(16, 3, 58);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SubheaderText')
+data.setCell(17, 2, 'Hw2.FirstHalf')
+data.setCell(17, 3, 46);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'CheckIframe')
+data.setCell(18, 2, 'Hw2.FirstHalf')
+data.setCell(18, 3, 37);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SubheaderLink')
+data.setCell(19, 2, 'Hw2.FirstHalf')
+data.setCell(19, 3, 29);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'LeftSection')
+data.setCell(20, 2, 'Hw2.FirstHalf')
+data.setCell(20, 3, 27);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Footer')
+data.setCell(21, 2, 'Hw2.FirstHalf')
+data.setCell(21, 3, 26);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'CheckUsername')
+data.setCell(22, 2, 'Hw2.FirstHalf')
+data.setCell(22, 3, 15);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'CheckPostlogin')
+data.setCell(23, 2, 'Hw2.FirstHalf')
+data.setCell(23, 3, 4);
+window.suiteTableData['Web_test_selenium']= { tableData: data, tableDiv: 'times-div-Web_test_selenium'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Web_test_selenium">
+              </div> <!-- times-div-Web_test_selenium -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Web_test_selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Web test selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CheckCheckboxesLogging</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">16:13:10 Wind: condition changed to true</span>
+                <span class="reporter-method-output">16:13:10 Water: condition changed to true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CheckCheckboxesLoggingReverse</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">16:13:10 Wind: condition changed to false</span>
+                <span class="reporter-method-output">16:13:10 Water: condition changed to false</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Web_test_selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Web_test_selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Hw2.FirstHalf</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EnterPage</span>
+                <span class="method-start">2011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckHeader</span>
+                <span class="method-start">3498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckIframe</span>
+                <span class="method-start">3863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckImages</span>
+                <span class="method-start">3900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Footer</span>
+                <span class="method-start">4041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LeftSection</span>
+                <span class="method-start">4068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MainHeaderText</span>
+                <span class="method-start">4095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PerformLogin</span>
+                <span class="method-start">4166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SubheaderText</span>
+                <span class="method-start">4444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckImagesTexts</span>
+                <span class="method-start">4490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckUsername</span>
+                <span class="method-start">4597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SubheaderLink</span>
+                <span class="method-start">4613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestIframeContent</span>
+                <span class="method-start">4642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckPostlogin</span>
+                <span class="method-start">4701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">4705 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Hw2.SecondHalf</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">4818 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EnterPage</span>
+                <span class="method-start">6345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckServicesHeader</span>
+                <span class="method-start">9638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckServicesLeft</span>
+                <span class="method-start">10027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PerformLogin</span>
+                <span class="method-start">10456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckDiffElements</span>
+                <span class="method-start">10744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckDiffElementsContent</span>
+                <span class="method-start">11138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckCheckboxesLogging</span>
+                <span class="method-start">11419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckDropdownLogging</span>
+                <span class="method-start">11517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckRadiobuttonLogging</span>
+                <span class="method-start">11665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckCheckboxesLoggingReverse</span>
+                <span class="method-start">11725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">11794 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

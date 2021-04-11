@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[16:13:10 Wind: condition changed to true]]>
+    </line>
+    <line>
+      <![CDATA[16:13:10 Water: condition changed to true]]>
+    </line>
+    <line>
+      <![CDATA[16:13:10 Wind: condition changed to false]]>
+    </line>
+    <line>
+      <![CDATA[16:13:10 Water: condition changed to false]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-10T13:12:58Z" name="Web test selenium" finished-at="2021-04-10T13:13:10Z" duration-ms="11891">
+    <groups>
+    </groups>
+    <test started-at="2021-04-10T13:12:58Z" name="Web test selenium first task" finished-at="2021-04-10T13:13:10Z" duration-ms="11891">
+      <class name="Hw2.SecondHalf">
+        <test-method is-config="true" signature="init()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:03Z" name="init" finished-at="2021-04-10T16:13:05Z" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="EnterPage()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:05Z" name="EnterPage" finished-at="2021-04-10T16:13:08Z" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPage -->
+        <test-method signature="CheckServicesHeader()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:08Z" name="CheckServicesHeader" finished-at="2021-04-10T16:13:08Z" depends-on-methods="Hw2.SecondHalf.EnterPage" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServicesHeader -->
+        <test-method signature="CheckServicesLeft()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:08Z" name="CheckServicesLeft" finished-at="2021-04-10T16:13:09Z" depends-on-methods="Hw2.SecondHalf.EnterPage" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServicesLeft -->
+        <test-method signature="PerformLogin()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:09Z" name="PerformLogin" finished-at="2021-04-10T16:13:09Z" depends-on-methods="Hw2.SecondHalf.EnterPage" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogin -->
+        <test-method signature="CheckDiffElements()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:09Z" name="CheckDiffElements" finished-at="2021-04-10T16:13:10Z" depends-on-methods="Hw2.SecondHalf.CheckServicesHeader" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDiffElements -->
+        <test-method signature="CheckDiffElementsContent()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:10Z" name="CheckDiffElementsContent" finished-at="2021-04-10T16:13:10Z" depends-on-methods="Hw2.SecondHalf.CheckDiffElements" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDiffElementsContent -->
+        <test-method signature="CheckCheckboxesLogging()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:10Z" name="CheckCheckboxesLogging" finished-at="2021-04-10T16:13:10Z" depends-on-methods="Hw2.SecondHalf.CheckDiffElementsContent" duration-ms="98" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[16:13:10 Wind: condition changed to true]]>
+            </line>
+            <line>
+              <![CDATA[16:13:10 Water: condition changed to true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckCheckboxesLogging -->
+        <test-method signature="CheckDropdownLogging()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:10Z" name="CheckDropdownLogging" finished-at="2021-04-10T16:13:10Z" depends-on-methods="Hw2.SecondHalf.CheckDiffElementsContent" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDropdownLogging -->
+        <test-method signature="CheckRadiobuttonLogging()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:10Z" name="CheckRadiobuttonLogging" finished-at="2021-04-10T16:13:10Z" depends-on-methods="Hw2.SecondHalf.CheckDiffElementsContent" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRadiobuttonLogging -->
+        <test-method signature="CheckCheckboxesLoggingReverse()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:10Z" name="CheckCheckboxesLoggingReverse" finished-at="2021-04-10T16:13:10Z" depends-on-methods="Hw2.SecondHalf.CheckCheckboxesLogging" duration-ms="69" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[16:13:10 Wind: condition changed to false]]>
+            </line>
+            <line>
+              <![CDATA[16:13:10 Water: condition changed to false]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckCheckboxesLoggingReverse -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Hw2.SecondHalf@5c18298f]" started-at="2021-04-10T16:13:10Z" name="closeDriver" finished-at="2021-04-10T16:13:10Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Hw2.SecondHalf -->
+      <class name="Hw2.FirstHalf">
+        <test-method is-config="true" signature="init()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:12:58Z" name="init" finished-at="2021-04-10T16:13:00Z" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="EnterPage()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:00Z" name="EnterPage" finished-at="2021-04-10T16:13:02Z" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPage -->
+        <test-method signature="CheckHeader()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:02Z" name="CheckHeader" finished-at="2021-04-10T16:13:02Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHeader -->
+        <test-method signature="CheckIframe()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:02Z" name="CheckIframe" finished-at="2021-04-10T16:13:02Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIframe -->
+        <test-method signature="CheckImages()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:02Z" name="CheckImages" finished-at="2021-04-10T16:13:02Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckImages -->
+        <test-method signature="Footer()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:02Z" name="Footer" finished-at="2021-04-10T16:13:02Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method signature="LeftSection()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:02Z" name="LeftSection" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeftSection -->
+        <test-method signature="MainHeaderText()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="MainHeaderText" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainHeaderText -->
+        <test-method signature="PerformLogin()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="PerformLogin" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogin -->
+        <test-method signature="SubheaderText()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="SubheaderText" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.EnterPage" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubheaderText -->
+        <test-method signature="CheckImagesTexts()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="CheckImagesTexts" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.CheckImages" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckImagesTexts -->
+        <test-method signature="CheckUsername()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="CheckUsername" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.PerformLogin" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckUsername -->
+        <test-method signature="SubheaderLink()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="SubheaderLink" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.SubheaderText" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubheaderLink -->
+        <test-method signature="TestIframeContent()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="TestIframeContent" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.CheckIframe" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestIframeContent -->
+        <test-method signature="CheckPostlogin()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="CheckPostlogin" finished-at="2021-04-10T16:13:03Z" depends-on-methods="Hw2.FirstHalf.CheckUsername" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostlogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Hw2.FirstHalf@704921a5]" started-at="2021-04-10T16:13:03Z" name="closeDriver" finished-at="2021-04-10T16:13:03Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Hw2.FirstHalf -->
+    </test> <!-- Web test selenium first task -->
+  </suite> <!-- Web test selenium -->
+</testng-results>

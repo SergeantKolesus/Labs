@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Web test selenium]" verbose="0">
+  <test name="Web test selenium first task(failed)">
+    <classes>
+      <class name="Hw2.FirstHalf">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Hw2.FirstHalf -->
+      <class name="Hw2.SecondHalf">
+        <methods>
+          <include name="CheckServicesHeader"/>
+          <include name="init"/>
+          <include name="CheckDiffElements"/>
+          <include name="CheckDiffElementsContent"/>
+          <include name="closeDriver"/>
+          <include name="CheckDropdownLogging"/>
+          <include name="EnterPage"/>
+        </methods>
+      </class> <!-- Hw2.SecondHalf -->
+    </classes>
+  </test> <!-- Web test selenium first task(failed) -->
+</suite> <!-- Failed suite [Web test selenium] -->
