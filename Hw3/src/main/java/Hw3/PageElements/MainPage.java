@@ -46,10 +46,86 @@ public class MainPage {
     @FindBy(xpath = "//header/div/nav/ul[1]/li/a")
     List<WebElement> headerLabels;
 
-
     public List<WebElement> GetHeaderLabels()
     {
         return headerLabels;
+    }
+
+    @FindBy(className = "benefit-icon")
+    List<WebElement> images;
+
+    public List<WebElement> GetImages()
+    {
+        return images;
+    }
+
+    @FindBy(className = "benefit-txt")
+    List<WebElement> imagesDescriptions;
+
+    public List<WebElement> GetImagesDescriptions()
+    {
+        return imagesDescriptions;
+    }
+
+    @FindBy(tagName = "h3")
+    WebElement mainHeader;
+
+    public WebElement GetMainHeader()
+    {
+        return mainHeader;
+    }
+
+    @FindBy(name = "jdi-text")
+    WebElement underHeaderText;
+
+    public WebElement GetUnderHeaderText()
+    {
+        return underHeaderText;
+    }
+
+    @FindBy(id = "second_frame")
+    WebElement iframe;
+
+    public WebElement GetIframe()
+    {
+        return iframe;
+    }
+
+    @FindBy(id = "epam-logo")
+    WebElement logo;
+
+    public WebElement GetIframedImage()
+    {
+        return logo;
+    }
+
+    @FindBy(xpath = "//main//a")
+    WebElement subheader;
+
+    public WebElement GetSubheader()
+    {
+        return subheader;
+    }
+
+    public String GetLink()
+    {
+        return subheader.getAttribute("href");
+    }
+
+    @FindBy(id = "mCSB_1")
+    WebElement leftSection;
+
+    public WebElement GetLeftSection()
+    {
+        return leftSection;
+    }
+
+    @FindBy(tagName = "footer")
+    WebElement footer;
+
+    public WebElement GetFooter()
+    {
+        return footer;
     }
 
 }

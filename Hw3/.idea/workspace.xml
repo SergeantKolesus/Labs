@@ -2,80 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf8ea5d-ba30-43d5-afc4-1c4f5b32f4b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/Hw2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/WebSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/src/test/java/Hw2/FirstHalf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hw2/src/test/java/Hw2/SecondHalf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hw3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw2legacy/FirstHalf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/PageElements/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Hw3/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Hw3/Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Hw3/FirstHalf.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Hw3/FirstHalf.features" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Hw3/SecondHalf.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest/Command line test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest/Command line test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Hw3.RunTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Hw3.RunTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/Command line test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Hw3/FirstHalf.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Hw3/FirstHalf.features" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Hw3/SecondHalf.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hw1/Hw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw1/Hw1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire/surefire5781966751676169848tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire/surefire_0563875833805625428tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hw3/PageElements/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hw3/PageElements/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Hw3/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hw3/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Hw3/FirstHalf.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Hw3/FirstHalf.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Hw3/SecondHalf.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Hw3/SecondHalf.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Hw3.RunTest/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Hw3.RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Hw3.RunTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Hw3.RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Hw3.RunTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hw3.RunTest/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hw3/FirstHalf.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hw3/FirstHalf.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hw3/SecondHalf.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hw3/SecondHalf.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

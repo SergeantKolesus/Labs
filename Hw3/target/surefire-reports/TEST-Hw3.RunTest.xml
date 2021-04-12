@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Hw3.RunTest" time="14.189" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="Hw3.RunTest" time="61.317" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
@@ -59,7 +59,15 @@
     <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="4.714"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="3.776"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="5.699"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="5.586"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.633"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="6.339"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="8.663"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.85"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.56"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.498"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="6.262"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="6.221"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.479"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="5.226"/>
 </testsuite>
