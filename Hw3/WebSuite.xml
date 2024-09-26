@@ -1,0 +1,8 @@
+<suite name="Web test selenium">
+    <test name="Web test selenium first task">
+        <classes>
+            <!--<class name="Hw2legacy.FirstHalf" />-->
+            <!--<class name="Hw3.SecondHalf"/>-->
+        </classes>
+    </test>
+</suite>

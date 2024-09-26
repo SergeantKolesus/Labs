@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sum test suite">
+    <test name="AutoQA">
+        <classes>
+            <class name="Hw1.SumTest" />
+            <class name="Hw1.MultTest"/>
+            <class name="Hw1.SqrtTest"/>
+            <class name="Hw1.SinTest"/>
+            <class name="Hw1.DivTest"/>
+            <class name="Hw1.SubTest"/>
+        </classes>
+    </test>
+</suite>
